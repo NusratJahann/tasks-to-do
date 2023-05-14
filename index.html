@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks To do</title>
+
+    <!-- Font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Icon link -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+
+    <!-- Style link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Tasks To Do</h1>
+        <nav id="inputContainer">
+            <input id="taskInput" type="text" placeholder="Type your task">
+            <button id="add">Add</button>
+        </nav>
+        <p class="taskPending"><span id="taskPending">0</span> task pending</p>
+    </header>
+
+    <main id="tasks">
+        <!-- <div class="block-element">
+            <p class="task"><i class="fi fi-sr-star"></i>Hello World<i class="fi fi-sr-cross-circle"></i></p>
+        </div> -->
+
+    </main>
+    <p id="instruction" class="">Click the task to finish</p>
+
+
+    <div class="all-cornerBtn">
+        <button title="Reset button" id="resetBtn" class="cornerBtn-style"><i class="fi fi-br-rotate-right"></i></button>
+    </div>
+
+    <!-- Script link -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
